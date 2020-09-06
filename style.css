@@ -1,6 +1,10 @@
 * {
     box-sizing: border-box;
 }
+#main,#links, #bio {
+    
+    justify-content:center;
+}
 @media (min-width: 576px) {
     #main {
         
