@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
 }
-#main,#links, #bio {
-    
+#main,#links, #bio { 
     justify-content:center;
 }
