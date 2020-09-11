@@ -9,10 +9,27 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        h2 {
+            color: white;
+            text-shadow: 2px 2px 4px #000000;
+        }
+
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: red;
+            color: white;
+            text-align: center;
+        }
+    </style>
 </head>
 
-<body>
-    <div class="container-fluid" style="background-image: url(./assets/img/bg_image.png);">
+<body style="background-image: url(./assets/img/bg_image.png);
+background-size: 100% 100vh;">
+    <div>
         <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
                 aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,9 +51,9 @@
 
         <body class="body">
             <div id="main" class="row">
-                <div class="col-sm-10 col-md-6 col-lg-6 mt-1 bg-light rounded p-2">
+                <div class="col-sm-10 col-md-6 col-lg-6 mt-1 bg-light rounded p-2 shadow">
                     <div class="col">
-                        <img class="float-right" src="./assets/img/ediuguid.png">
+                        <img class="float-right shadow rounded-circle" src="./assets/img/ediuguid.png">
                     </div>
                     <div class="col">
                         <div class="row">
@@ -53,7 +70,7 @@
                 </div>
             </div>
             <div id="bio" class="row mt-2">
-                <div class="col-sm col-md-6 m-1 mt-1 bg-light rounded p-2">
+                <div class="col-sm col-md-6 m-1 mt-1 bg-light rounded p-2 shadow">
                     <p>
                         I am a web developer with a certificate in Full Stack Web Development from the University of
                         North Carolina. I have degrees in History and Spanish (bilingual) from Appalachian State
@@ -73,7 +90,7 @@
                 </div>
             </div>
             <div id="links" class="row mt-2">
-                <div class="col-sm col-md-4 col-lg-3 bg-light rounded m-1 mt-2 d-block p-2">
+                <div class="col-sm col-md-4 col-lg-3 bg-light rounded m-1 mt-2 d-block p-2 shadow">
                     <div class="row">
                         <div class="col">
                             <p>Please check out some of my latest projects or navigate to the contact page and leave me
@@ -83,7 +100,7 @@
                     </div>
                     <div class="row">
                         <div class="col">
-                            <a role="button" class="btn btn-info w-100" href="portfolio.html">Projects</a>
+                            <a role="button" class="btn btn-info w-100 mb-3" href="portfolio.html">Projects</a>
                         </div>
                     </div>
                     <div class="row">
@@ -94,7 +111,7 @@
                 </div>
             </div>
         </body>
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark text-light justify-content-md-center mt-4">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark text-light justify-content-md-center mt-4 footer">
             <a class="nav-link text-light" href="#"> Everett Diuguid &copy 2020</a>
         </nav>
     </div>
