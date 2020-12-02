@@ -28,8 +28,7 @@ function ContactCard() {
                             </div>
                         </div>
                         <div className="row m-1">
-                            <div className="col">
-                        cd por  
+                            <div className="col"> 
                             </div>
                         </div>
                     </div>

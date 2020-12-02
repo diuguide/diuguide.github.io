@@ -11,7 +11,7 @@ function NavBar() {
             <div className="collapse navbar-collapse" id="navbarCollapse">
                 <ul className="nav navbar-nav ml-auto justify-content-end">
                 <li className="nav-item">
-                        <Link className="nav-link" to="/portfolio_react">About</Link>
+                        <Link className="nav-link" to="/">About</Link>
                     </li>
                     <li className="nav-item">
                         <Link className="nav-link" to="/Projects">Projects</Link>
