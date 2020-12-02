@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b0e561ef.chunk.css",
+    "main.js": "/static/js/main.abf073b0.chunk.js",
+    "main.js.map": "/static/js/main.abf073b0.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5bec17d4.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5bec17d4.js.map",
+    "static/js/2.c3df8135.chunk.js": "/static/js/2.c3df8135.chunk.js",
+    "static/js/2.c3df8135.chunk.js.map": "/static/js/2.c3df8135.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.b0e561ef.chunk.css.map": "/static/css/main.b0e561ef.chunk.css.map",
+    "static/js/2.c3df8135.chunk.js.LICENSE.txt": "/static/js/2.c3df8135.chunk.js.LICENSE.txt",
+    "static/media/ediuguid.3d61a79f.jpg": "/static/media/ediuguid.3d61a79f.jpg",
+    "static/media/screenshot_burger.fcd4585b.png": "/static/media/screenshot_burger.fcd4585b.png",
+    "static/media/screenshot_isitopen.d0bb4860.png": "/static/media/screenshot_isitopen.d0bb4860.png",
+    "static/media/screenshot_myriad.bbdf9750.png": "/static/media/screenshot_myriad.bbdf9750.png",
+    "static/media/screenshot_yardpal.867c98bb.png": "/static/media/screenshot_yardpal.867c98bb.png",
+    "static/media/scrn_passwordGenerator.ba0d8328.jpg": "/static/media/scrn_passwordGenerator.ba0d8328.jpg",
+    "static/media/scrn_weathermap.7fb53fb6.png": "/static/media/scrn_weathermap.7fb53fb6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5bec17d4.js",
+    "static/js/2.c3df8135.chunk.js",
+    "static/css/main.b0e561ef.chunk.css",
+    "static/js/main.abf073b0.chunk.js"
+  ]
+}
