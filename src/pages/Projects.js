@@ -30,9 +30,6 @@ export class Projects extends Component {
                     <IsItOpen />
                     <Myriad />
                     <WeatherMap />
-                    <CodeQuiz />
-                    <PasswordGenerator />
-                    <Burger />
                 </div>
                 <BlankSpace />
             </>
