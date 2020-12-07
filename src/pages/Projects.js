@@ -18,10 +18,7 @@ export class Projects extends Component {
         linkedIn: "https://www.linkedin.com/in/everett-diuguid-583632197/",
         gitHub: "https://github.com/diuguide"
     }
-    handleMouseOver = () => {
-        console.log("mouse over");
-    }
-
+    
     render() {
         return (
             <>

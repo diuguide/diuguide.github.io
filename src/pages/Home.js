@@ -8,7 +8,6 @@ export class Home extends Component {
     state = {
         nameFirst: "Everett",
         nameLast: "Diuguid",
-        phone: "(919) 801-8756",
         email: "everett.diuguid@gmail.com",
         position: "Full Stack Web Developer",
         linkedIn: "https://www.linkedin.com/in/everett-diuguid-583632197/",
