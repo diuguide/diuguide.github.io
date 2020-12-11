@@ -23,10 +23,10 @@ export class Projects extends Component {
         return (
             <>
                 <div className="row mx-auto d-block d-md-block d-lg-flex w-lg-75">
+                    <WeatherMap />
                     <YardPal />
                     <IsItOpen />
                     <Myriad />
-                    <WeatherMap />
                 </div>
                 <BlankSpace />
             </>
