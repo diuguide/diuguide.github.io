@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Row, Col, Container } from 'react-bootstrap';
 import CodeQuiz from '../components/ProjectDesc/CodeQuiz.js';
 import IsItOpen from '../components/ProjectDesc/IsItOpen.js'
 import PasswordGenerator from '../components/ProjectDesc/PasswordGenerator.js';
@@ -21,15 +22,23 @@ export class Projects extends Component {
     
     render() {
         return (
-            <>
-                <div className="row mx-auto d-block d-md-block d-lg-flex w-lg-75">
+            <Container>
+                <Row className="d-block">
+                    <Col>
                     <WeatherMap />
+                    </Col>
+                    <Col>
                     <YardPal />
+                    </Col>
+                    <Col>
                     <IsItOpen />
+                    </Col>
+                    <Col>
                     <Myriad />
-                </div>
+                    </Col> 
+                </Row>
                 <BlankSpace />
-            </>
+            </Container>
         )
     }
 }

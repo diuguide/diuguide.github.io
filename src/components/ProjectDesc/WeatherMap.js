@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
+import { Row, Col } from 'react-bootstrap';
 import openImg from '../Images/screenshots/screenshot_weathermap.png';
 
 class WeatherMap extends Component {
     render() {
         return (
-
-            <div className="col project">
+            <Row>
+                <Col>
+<div className="col project">
                 <div className="card shadow" style={{ width: "375px", height: "100%" }}>
                     <h5 className="card-header">Rain or Shine 919</h5>
                     <div className="card-body">
@@ -44,6 +46,9 @@ class WeatherMap extends Component {
                     </div>
                 </div>
             </div>
+                </Col>
+            </Row>
+            
 
         )
     }

@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
-import openImg from '../Images/screenshots/screenshot_isitopen.png';
+import openImg from '../Images/screenshots/screen_isitopenNEW.png';
 
 class IsItOpen extends Component {
 
     render() {
         return (
-
             <div className="col project">
                 <div className="card shadow" style={{ width: "375px", height: "100%" }}>
                     <h5 className="card-header">Is it open?</h5>
