@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.b0e561ef.chunk.css",
-    "main.js": "/static/js/main.63ddf5b1.chunk.js",
-    "main.js.map": "/static/js/main.63ddf5b1.chunk.js.map",
+    "main.js": "/static/js/main.9dd14d5c.chunk.js",
+    "main.js.map": "/static/js/main.9dd14d5c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.cfc15823.js",
     "runtime-main.js.map": "/static/js/runtime-main.cfc15823.js.map",
     "static/css/2.1a02f21c.chunk.css": "/static/css/2.1a02f21c.chunk.css",
@@ -16,15 +16,15 @@
     "static/media/screenshot_burger.fcd4585b.png": "/static/media/screenshot_burger.fcd4585b.png",
     "static/media/screenshot_isitopen.d0bb4860.png": "/static/media/screenshot_isitopen.d0bb4860.png",
     "static/media/screenshot_myriad.bbdf9750.png": "/static/media/screenshot_myriad.bbdf9750.png",
+    "static/media/screenshot_weathermap.28972e13.png": "/static/media/screenshot_weathermap.28972e13.png",
     "static/media/screenshot_yardpal.867c98bb.png": "/static/media/screenshot_yardpal.867c98bb.png",
-    "static/media/scrn_passwordGenerator.ba0d8328.jpg": "/static/media/scrn_passwordGenerator.ba0d8328.jpg",
-    "static/media/scrn_weathermap.7fb53fb6.png": "/static/media/scrn_weathermap.7fb53fb6.png"
+    "static/media/scrn_passwordGenerator.ba0d8328.jpg": "/static/media/scrn_passwordGenerator.ba0d8328.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.cfc15823.js",
     "static/css/2.1a02f21c.chunk.css",
     "static/js/2.336ac706.chunk.js",
     "static/css/main.b0e561ef.chunk.css",
-    "static/js/main.63ddf5b1.chunk.js"
+    "static/js/main.9dd14d5c.chunk.js"
   ]
 }
