@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import openImg from '../Images/screenshots/scrn_weathermap.png';
+import openImg from '../Images/screenshots/screenshot_weathermap.png';
 
 class WeatherMap extends Component {
     render() {
