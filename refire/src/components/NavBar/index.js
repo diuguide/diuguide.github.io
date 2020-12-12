@@ -4,12 +4,11 @@ import Navbar from 'react-bootstrap/Navbar';
 
 const NavHeader = () => {
   return (
-    <Navbar bg="dark" variant="dark">
-      <Navbar.Brand href="#home">Everett Diuguid</Navbar.Brand>
-      <Nav className="mr-auto">
-        <Nav.Link href="#home">About</Nav.Link>
-        <Nav.Link href="#projects">Projects</Nav.Link>
-        <Nav.Link href="#contact">Contact</Nav.Link>
+    <Navbar bg="black" variant="black">
+      <Nav className="mx-auto">
+        <Nav.Link className="navItem" href="#home">About</Nav.Link>
+        <Nav.Link className="navItem" href="#projects">Projects</Nav.Link>
+        <Nav.Link className="navItem" href="#contact">Contact</Nav.Link>
       </Nav>
     </Navbar>
   );
