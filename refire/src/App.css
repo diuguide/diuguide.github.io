@@ -1,7 +1,12 @@
 .container {
   background-image: url(./stars.jpg);
   height: 800px;
+  font-family: 'Mukta', sans-serif;
+  font-weight: 900;
 }
 .navItem {
 color: white;
+}
+.nameImage {
+  width: 100%;
 }
