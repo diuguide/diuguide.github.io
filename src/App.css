@@ -65,6 +65,7 @@ h3 {
 .project {
   margin-top: 10px;
   margin-bottom: 10px;
+  width: 350px;
 }
 .imgHov {
   width: 100%;
@@ -77,4 +78,8 @@ h3 {
 }
 #projectsContainer {
   margin-left: 40px;
+}
+
+.card {
+  width: 350px;
 }

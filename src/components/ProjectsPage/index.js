@@ -9,15 +9,13 @@ const ProjectsPage = () => {
   return (
     <Row className="mt-4 w-100">
       <Col id="projectsContainer">
-        <Row className="d-sm-block">
+        <Row className="d-sm-block d-md-inline-flex">
           <Col>
             <WeatherMap />
           </Col>
           <Col>
             <YardPal />
           </Col>
-        </Row>
-        <Row className="d-sm-block">
           <Col>
             <Myriad />
           </Col>
