@@ -1,7 +1,7 @@
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Button from 'react-bootstrap/Button';
+
 import NavHeader from "./components/NavBar";
 import Landing from './components/Landing';
 import Skills from './components/Skills';
