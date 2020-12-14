@@ -1,24 +1,46 @@
-import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
-import './App.css';
-import Home from './pages/Home';
-import Contact from './pages/Contact';
-import Projects from './pages/Projects';
-import NavBar from './components/NavBar/index';
-import Footer from './components/Footer/index';
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import NavHeader from "./components/NavBar";
+import Landing from "./components/Landing";
+import Skills from "./components/Skills";
+import downArrow from "./downarrow.png";
+import ProjectsPage from "./components/ProjectsPage";
+import "./App.css";
 
 function App() {
   return (
-    <div style={{backgroundColor: "#ecf8f8"}}>
-      <Router>
-        <NavBar />
-        <Route exact path='/' component={Home} />
-        <Route exact path='/Contact' component={Contact} />
-        <Route exact path='/Projects' component={Projects} /> 
-        <Footer /> 
-        </Router>
-    </div>
+    <>
+      <Container>
+        <Row
+          className="firstSecion"
+          style={{ backgroundImage: "./stars.jpg " }}
+        >
+          <Col>
+            <Row>
+              <Col>
+                <Landing />
+                <NavHeader />
+                <Skills />
+              </Col>
+            </Row>
+            <Row>
+              <Col className="downButton">
+                <a href="#projects">
+                  <img src={downArrow}></img>
+                </a>
+              </Col>
+            </Row>
+          </Col>
+        </Row>
 
+        <Row id="projects" className="secondSection">
+          <Col>
+            <ProjectsPage />
+          </Col>
+        </Row>
+      </Container>
+    </>
   );
 }
 

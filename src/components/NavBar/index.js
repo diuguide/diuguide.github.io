@@ -1,28 +1,17 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import Nav from "react-bootstrap/Nav";
+import Navbar from 'react-bootstrap/Navbar';
 
-function NavBar() {
-    return (
-        <nav className="navbar navbar-expand-md navbar-dark bg-dark mb-4">
-            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon"></span>
-            </button>
-            <div className="collapse navbar-collapse" id="navbarCollapse">
-                <ul className="nav navbar-nav ml-auto justify-content-end">
-                <li className="nav-item">
-                        <Link className="nav-link" to="/">About</Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link className="nav-link" to="/Projects">Projects</Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link className="nav-link" to="./Contact">Contact</Link>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    )
-}
 
-export default NavBar;
+const NavHeader = () => {
+  return (
+    <Navbar bg="black" variant="black">
+      <Nav className="mx-auto">
+        <Nav.Link className="navItem" href="#home">ABOUT</Nav.Link>
+        <Nav.Link className="navItem" href="#projects">PROJECTS</Nav.Link>
+        <Nav.Link className="navItem" href="#contact">CONTACT</Nav.Link>
+      </Nav>
+    </Navbar>
+  );
+};
+
+export default NavHeader;

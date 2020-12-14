@@ -1,24 +1,34 @@
-
-.footer {
-  background-color: #282c34;
-  color:  #9b9b7a;
-  height: 20px;
+.container {
+  background-image: url(./stars.jpg);
+  height: 800px;
+  font-family: 'Mukta', sans-serif;
+  font-weight: 900;
+}
+.navItem {
+color: #aed9e0;
+font-size: 20px
+}
+.nameImage {
   width: 100%;
-  position: fixed;
-  bottom: 0;
-  padding: 0px;
-  text-align: center;
-}
-#github, #linkedin, #deployment {
-  height: 25px;
-  padding: 2px;
-  margin-bottom: 5px;
-}
-#face {
-  height: 110px
 }
 .logo {
-  padding: 2px;
+  margin: 10px;
+  height: 30px;
+}
+h3 {
+  color: #aed9e0;
+}
+.firstSection {
+  height: 800px;
+  width: 100%;
+}
+.secondSection {
+  margin-top: 50px;
+  background-color: #457b9d; 
+}
+.downButton {
+  margin-top: 40px;
+  text-align: center;
 }
 .card-body {
   padding: 0;
@@ -26,6 +36,10 @@
   background-color: #4a4e69;
   
   
+}
+.logoDesc {
+  height: 20px;
+  margin: 5px;
 }
 .card-header {
   background-color: #9b9b7a;
@@ -57,7 +71,10 @@
 }
 .description {
   text-align: center;
- padding-top: 60px;
- padding-right: 20px;
+ margin-right: 25px;
+ margin-top: 40px;
   
+}
+#projectsContainer {
+  margin-left: 40px;
 }
