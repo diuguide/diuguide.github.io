@@ -9,7 +9,7 @@ const ProjectsPage = () => {
   return (
     <Row className="mt-4 w-100">
       <Col id="projectsContainer">
-        <Row>
+        <Row className="d-sm-block">
           <Col>
             <WeatherMap />
           </Col>
@@ -17,7 +17,7 @@ const ProjectsPage = () => {
             <YardPal />
           </Col>
         </Row>
-        <Row>
+        <Row className="d-sm-block">
           <Col>
             <Myriad />
           </Col>
