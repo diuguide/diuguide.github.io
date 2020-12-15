@@ -13,12 +13,12 @@ class WeatherMap extends Component {
               <div className="card-body">
                 <div className="row coverDiv">
                   <div className="col description">
-                    <h5>
+                    <div className="descriptionText">
                       A MERN stack 3rd party API application gathering the
                       current and five-day forecast for a selected city,
                       allowing users to create individualized settings and save
                       search data
-                    </h5>
+                    </div>
                   </div>
                 </div>
                 <div className="row imageCont">

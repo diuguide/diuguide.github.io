@@ -71,12 +71,18 @@ h3 {
   width: 100%;
 }
 .description {
+  width: 100%;
   text-align: center;
- margin-right: 25px;
- margin-top: 40px;
-  
+}
+.descriptionText {
+  font-size: 20px;
 }
 #projectsContainer {
   margin-left: 40px;
 }
 
+@media only screen and (max-width: 400px) {
+  .descriptionText {
+    font-size: 8px;
+  }
+}
