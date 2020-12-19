@@ -1,7 +1,7 @@
 html, body, #root, #root>div {
   background-image: url(./stars.jpg);
   height: 100%;
-  font-family: 'Mukta', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 900;
   scroll-behavior: smooth;
 }
@@ -76,6 +76,7 @@ h3 {
 }
 .descriptionText {
   font-size: 20px;
+  margin-right: 20px;
 }
 #projectsContainer {
   margin-left: 40px;
