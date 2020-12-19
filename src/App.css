@@ -3,6 +3,7 @@ html, body, #root, #root>div {
   height: 100%;
   font-family: 'Mukta', sans-serif;
   font-weight: 900;
+  scroll-behavior: smooth;
 }
 .navItem {
 color: #aed9e0;
@@ -23,7 +24,8 @@ h3 {
   width: 100%;
 }
 .secondSection {
-  margin-top: 50px; 
+  margin-top: 50px;
+  transition: 1s;
 }
 .downButton {
   margin-top: 40px;
@@ -80,7 +82,7 @@ h3 {
   margin-left: 40px;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 700px) {
   .descriptionText {
     display: none;
   }

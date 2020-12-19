@@ -7,7 +7,7 @@ const NavHeader = () => {
     <Navbar bg="black" variant="black">
       <Nav className="mx-auto">
         
-        <Nav.Link className="navItem" href="#projects">PROJECTS</Nav.Link>
+        <Nav.Link id="projectsLink" className="navItem" href="#projects">PROJECTS</Nav.Link>
         
       </Nav>
     </Navbar>
