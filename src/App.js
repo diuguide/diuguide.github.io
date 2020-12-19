@@ -4,6 +4,7 @@ import Col from "react-bootstrap/Col";
 import NavHeader from "./components/NavBar";
 import Landing from "./components/Landing";
 import Skills from "./components/Skills";
+import About from "./components/About";
 import downArrow from "./downarrow.png";
 import ProjectsPage from "./components/ProjectsPage";
 import "./App.css";
@@ -12,15 +13,13 @@ function App() {
   return (
     <>
       <Container>
-        <Row
-          className="firstSecion"
-          style={{ backgroundImage: "./stars.jpg " }}
-        >
+        <Row className="firstSecion">
           <Col>
             <Row>
               <Col>
                 <Landing />
                 <NavHeader />
+                <About />
                 <Skills />
               </Col>
             </Row>
@@ -33,7 +32,7 @@ function App() {
             </Row>
           </Col>
         </Row>
-
+        
         <Row id="projects" className="secondSection">
           <Col>
             <ProjectsPage />

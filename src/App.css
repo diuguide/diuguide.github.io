@@ -80,6 +80,9 @@ h3 {
 #projectsContainer {
   margin-left: 40px;
 }
+.aboutDescription {
+  color: #dfdfdf;
+}
 
 @media only screen and (max-width: 700px) {
   .descriptionText {
