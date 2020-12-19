@@ -10,10 +10,10 @@ class YardPal extends Component {
           <div className="card-body">
             <div className="row coverDiv">
               <div className="col description">
-                <h5>
+                <div className="descriptionText">
                   MERN-Stack retail app utilizing authentication to create
                   individualized “yard sales” online.
-                </h5>
+                </div>
               </div>
             </div>
             <div className="row imageCont">

@@ -10,10 +10,10 @@ class IsItOpen extends Component {
           <div className="card-body">
             <div className="row coverDiv">
               <div className="col description">
-                <h5>
+              <div className="descriptionText">
                   An API application that searches for open businesses and
                   covid-19 statistics for a user-defined search location
-                </h5>
+                </div>
               </div>
             </div>
             <div className="row imageCont">
