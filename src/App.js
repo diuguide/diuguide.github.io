@@ -16,7 +16,7 @@ function App() {
         <Row className="firstSecion">
           <Col>
             <Row>
-              <Col>
+              <Col className="pl-4">
                 <Landing />
                 <NavHeader />
                 <About />

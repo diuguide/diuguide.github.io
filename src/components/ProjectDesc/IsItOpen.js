@@ -5,12 +5,12 @@ class IsItOpen extends Component {
   render() {
     return (
       <div className="col project">
-        <div className="card shadow">
+        <div style={{ width: "345px" }} className="card shadow">
           <h5 className="card-header">Is it open?</h5>
           <div className="card-body">
             <div className="row coverDiv">
               <div className="col description">
-              <div className="descriptionText">
+                <div className="descriptionText">
                   An API application that searches for open businesses and
                   covid-19 statistics for a user-defined search location
                 </div>
