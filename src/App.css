@@ -13,9 +13,11 @@ font-size: 20px
   width: 100%;
 }
 .logo {
-  margin: 10px;
-  height: 30px;
+  margin-left: 3px;
+  margin-right: 3px;
+  height: 20px;
 }
+
 h3 {
   color: #aed9e0;
 }
@@ -83,8 +85,25 @@ h3 {
 }
 .aboutDescription {
   color: #dfdfdf;
+  font-size: 13px;
+  font-weight: 500;
 }
-
+.aboutContainer {
+  border: 5px double grey;
+  border-radius: 20px;
+  background-color: #4a4e69;
+  text-align: center;
+  margin: auto;
+}
+.skillContainer {
+  text-align: center;
+  margin: auto;
+  display: flex;
+  border: 5px double grey;
+  border-radius: 20px;
+  background-color: #4a4e69;
+  
+}
 @media only screen and (max-width: 700px) {
   .descriptionText {
     display: none;

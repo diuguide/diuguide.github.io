@@ -12,7 +12,7 @@ import "./App.css";
 function App() {
   return (
     <>
-      <Container>
+      <Container fluid>
         <Row className="firstSecion">
           <Col>
             <Row>
