@@ -5,7 +5,7 @@ class Myriad extends Component {
   render() {
     return (
       <div className="col project">
-        <div className="card shadow">
+        <div style={{ width: "345px" }} className="card shadow">
           <h5 className="card-header">Myriad</h5>
           <div className="card-body">
             <div className="row coverDiv">
