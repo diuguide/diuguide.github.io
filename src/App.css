@@ -65,7 +65,7 @@ h3 {
 
 .card-body:hover .imgHov {
   opacity: 0;
-  transition: 1s;
+  transition: .5s;
 }
 .project {
   margin-top: 10px;
@@ -82,7 +82,7 @@ h3 {
 }
 .descriptionText {
   font-size: 20px;
-  margin-right: 20px;
+  margin-right: 15px;
   margin-top: 60px;
 }
 #projectsContainer {
