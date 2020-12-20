@@ -34,7 +34,7 @@ function App() {
         </Row>
         
         <Row id="projects" className="secondSection">
-          <Col>
+          <Col md={9} className="mx-auto">
             <ProjectsPage />
           </Col>
         </Row>

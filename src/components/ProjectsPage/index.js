@@ -16,8 +16,6 @@ const ProjectsPage = () => {
           <Col>
             <YardPal />
           </Col>
-          </Row>
-          <Row>
           <Col>
             <Myriad />
           </Col>
