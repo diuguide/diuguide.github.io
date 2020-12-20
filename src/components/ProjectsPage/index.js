@@ -7,9 +7,9 @@ import YardPal from "../ProjectDesc/YardPal.js";
 
 const ProjectsPage = () => {
   return (
-    <Row className="mt-4 w-100">
-      <Col id="projectsContainer">
-        <Row className="d-sm-block d-md-inline-flex">
+    <Row className="mt-4">
+      <Col id="projectsContainer"  md={9} className="mx-auto">
+        <Row>
           <Col>
             <WeatherMap />
           </Col>
