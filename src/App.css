@@ -109,8 +109,3 @@ h3 {
   background-color: #4a4e69;
   
 }
-@media only screen and (max-width: 700px) {
-  .descriptionText {
-    display: none;
-  }
-}
