@@ -3,7 +3,7 @@ import Navbar from "react-bootstrap/Navbar";
 
 const NavHeader = () => {
   return (
-    <Navbar expand="lg" bg="primary" variant="dark">
+    <Navbar expand="sm" bg="dark" variant="dark">
       <Navbar.Brand href="#About">Everett Diuguid</Navbar.Brand>
       <Nav className="mr-auto">
         <Nav.Link href="#About">About</Nav.Link>
