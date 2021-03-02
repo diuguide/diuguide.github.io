@@ -2,6 +2,10 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import ProjectCard from "../ProjectCard"
 import projectData from "../JSONdata/projectData";
+import screen_isitopen from "../Images/screenshots/screen_isitopenNEW.png";
+import screen_myriad from "../Images/screenshots/screenshot_myriad.png";
+import screen_rainorshine from "../Images/screenshots/screenshot_weathermap.png";
+import screen_yardPal from "../Images/screenshots/screenshot_yardpal.png";
 
 const ProjectsPage = () => {
   return (
@@ -12,7 +16,7 @@ const ProjectsPage = () => {
             <ProjectCard
               title={projectData.isitopen.title}
               description={projectData.isitopen.description}
-              img={projectData.isitopen.img}
+              img={screen_isitopen}
               stack={projectData.isitopen.stack}
               deploy={projectData.isitopen.links.deploy}
               github={projectData.isitopen.links.github}
@@ -22,7 +26,7 @@ const ProjectsPage = () => {
             <ProjectCard
               title={projectData.rainorshine919.title}
               description={projectData.rainorshine919.description}
-              img={projectData.rainorshine919.img}
+              img={screen_rainorshine}
               stack={projectData.rainorshine919.stack}
               deploy={projectData.rainorshine919.links.deploy}
               github={projectData.rainorshine919.links.github}
@@ -32,7 +36,7 @@ const ProjectsPage = () => {
             <ProjectCard
               title={projectData.yardPal.title}
               description={projectData.yardPal.description}
-              img={projectData.yardPal.img}
+              img={screen_yardPal}
               stack={projectData.yardPal.stack}
               deploy={projectData.yardPal.links.deploy}
               github={projectData.yardPal.links.github}
@@ -42,7 +46,7 @@ const ProjectsPage = () => {
             <ProjectCard
               title={projectData.myriad.title}
               description={projectData.myriad.description}
-              img={projectData.myriad.img}
+              img={screen_myriad}
               stack={projectData.myriad.stack}
               deploy={projectData.myriad.links.deploy}
               github={projectData.myriad.links.github}

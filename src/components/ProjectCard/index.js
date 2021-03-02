@@ -1,4 +1,5 @@
 import Card from "react-bootstrap/Card";
+import Button from "react-bootstrap/Button";
 
 const ProjectCard = ({ title, description, img, stack, deploy, github }) => {
   return (
@@ -9,8 +10,8 @@ const ProjectCard = ({ title, description, img, stack, deploy, github }) => {
         <Card.Text>{description}</Card.Text>
       </Card.Body>
       <Card.Body>
-        <Card.Link href="#">{deploy}</Card.Link>
-        <Card.Link href="#">{github}</Card.Link>
+        <Button href={deploy}>Deployment</Button>
+        <Button href={github}>Repo</Button>
       </Card.Body>
     </Card>
   );
