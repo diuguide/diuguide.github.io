@@ -6,8 +6,8 @@ import banner from "../Images/nameLogo.png";
 
 const About = () => {
   return (
-    <Row className="mt-4 d-inline-flex justify-content-center mx-auto">
-      <Col lg="6" className="aboutContainer">
+    <Row className="mt-4 justify-content-center mx-auto">
+      <Col className="aboutContainer">
         <Row>
           <Col>
             <img src={banner} className="banner" />

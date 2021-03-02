@@ -25,7 +25,7 @@ const projectData =
   rainorshine919: {
     title: "Rain or Shine 919",
     description:
-      "A MERN stack application using a 3rd party API to populate current and forecast weather data.  Allows users to create individualized settings and saves all search data.",
+      "A MERN stack application that populates current and forecast weather data.  Allows users to create individualized settings.",
     img: "screenshot_weathermap.png",
     stack: {
       html:
