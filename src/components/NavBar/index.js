@@ -8,7 +8,6 @@ const NavHeader = () => {
       <Nav className="mr-auto">
         <Nav.Link href="#About">About</Nav.Link>
         <Nav.Link href="#projects">Work</Nav.Link>
-        <Nav.Link href="#pricing">Contact</Nav.Link>
       </Nav>
     </Navbar>
   );
