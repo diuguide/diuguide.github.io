@@ -40,7 +40,6 @@ const About = () => {
             <img src={face} className="face" />
           </Col>
         </Row>
-        
       </Col>
     </Row>
   );

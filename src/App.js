@@ -20,16 +20,8 @@ function App() {
                 <About />
               </Col>
             </Row>
-            <Row>
-              <Col className="downButton">
-                <a href="#projects">
-                  <img src={downArrow}></img>
-                </a>
-              </Col>
-            </Row>
           </Col>
         </Row>
-        
         <Row id="projects" className="secondSection">
           <Col>
             <ProjectsPage />
