@@ -2,7 +2,6 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import NavHeader from "./components/NavBar";
-import Landing from "./components/Landing";
 import Skills from "./components/Skills";
 import About from "./components/About";
 import downArrow from "./downarrow.png";
@@ -17,10 +16,8 @@ function App() {
           <Col>
             <Row>
               <Col className="pl-4">
-                <Landing />
                 <NavHeader />
                 <About />
-                <Skills />
               </Col>
             </Row>
             <Row>

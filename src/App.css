@@ -1,5 +1,5 @@
 html, body, #root, #root>div {
-  background-image: url(./stars.jpg);
+  
   height: 100%;
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
@@ -77,8 +77,15 @@ h3 {
   transition: 1s;
 }
 .description {
-  width: 100%;
-  text-align: center;
+  text-align: right;
+}
+.face {
+  margin-top: 15px;
+  width: 200px; 
+}
+.banner {
+  float:right;
+  width: 400px;
 }
 .descriptionText {
   font-size: 20px;
@@ -94,18 +101,7 @@ h3 {
   font-weight: 500;
 }
 .aboutContainer {
-  border: 5px double grey;
-  border-radius: 20px;
-  background-color: #4a4e69;
-  text-align: center;
-  margin: auto;
 }
 .skillContainer {
-  text-align: center;
-  margin: auto;
-  display: flex;
-  border: 5px double grey;
-  border-radius: 20px;
-  background-color: #4a4e69;
   
 }
