@@ -6,10 +6,8 @@
 
 - This is a reactJS based application highlighting my Web Development work to date.  This includes a brief introduction, technical skills, most recent projects, and contact info.  Please reach out to me @ ```everett.diuguid@gmail.com``` if you have any questions!  
 
-<a href="https://diuguide.github.io/portfolio_react/">
-<img src="./screenshot_two_portfolio.png" alt="portfolio" width="350">
-<img src="./screenshot_portfolio.png" alt="portfolio" width="350">
-<img src="./screenshot_three_portfolio.png" alt="portfolio" width="350">
+<a href="https://diuguide.github.io/">
+
 </a>
 
 
@@ -20,7 +18,7 @@
 
 ## Installation
 
-- In order to access this application, all you need to do is navigate to <https://diuguide.github.io/portfolio_react/>, or click the hyperlink or picture of the application above and you will be directed to the website.
+- In order to access this application, all you need to do is navigate to <https://diuguide.github.io/>, or click the hyperlink or picture of the application above and you will be directed to the website.
 
 [back to Table of Contents](#table-of-contents)
 
