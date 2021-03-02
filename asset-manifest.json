@@ -1,31 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.4588409e.chunk.css",
-    "main.js": "/static/js/main.d36da4dc.chunk.js",
-    "main.js.map": "/static/js/main.d36da4dc.chunk.js.map",
+    "main.css": "/static/css/main.d62d0924.chunk.css",
+    "main.js": "/static/js/main.176e193d.chunk.js",
+    "main.js.map": "/static/js/main.176e193d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.91662346.js",
     "runtime-main.js.map": "/static/js/runtime-main.91662346.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/static/css/2.20aa2d7b.chunk.css",
-    "static/js/2.93197a9c.chunk.js": "/static/js/2.93197a9c.chunk.js",
-    "static/js/2.93197a9c.chunk.js.map": "/static/js/2.93197a9c.chunk.js.map",
+    "static/js/2.77865bce.chunk.js": "/static/js/2.77865bce.chunk.js",
+    "static/js/2.77865bce.chunk.js.map": "/static/js/2.77865bce.chunk.js.map",
     "static/js/3.3c6f3666.chunk.js": "/static/js/3.3c6f3666.chunk.js",
     "static/js/3.3c6f3666.chunk.js.map": "/static/js/3.3c6f3666.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.20aa2d7b.chunk.css.map": "/static/css/2.20aa2d7b.chunk.css.map",
-    "static/css/main.4588409e.chunk.css.map": "/static/css/main.4588409e.chunk.css.map",
-    "static/js/2.93197a9c.chunk.js.LICENSE.txt": "/static/js/2.93197a9c.chunk.js.LICENSE.txt",
+    "static/css/main.d62d0924.chunk.css.map": "/static/css/main.d62d0924.chunk.css.map",
+    "static/js/2.77865bce.chunk.js.LICENSE.txt": "/static/js/2.77865bce.chunk.js.LICENSE.txt",
+    "static/media/ediuguid.3d61a79f.jpg": "/static/media/ediuguid.3d61a79f.jpg",
     "static/media/nameLogo.8686b825.png": "/static/media/nameLogo.8686b825.png",
     "static/media/screen_isitopenNEW.445cf439.png": "/static/media/screen_isitopenNEW.445cf439.png",
     "static/media/screenshot_myriad.bbdf9750.png": "/static/media/screenshot_myriad.bbdf9750.png",
     "static/media/screenshot_weathermap.b702329f.png": "/static/media/screenshot_weathermap.b702329f.png",
-    "static/media/screenshot_yardpal.a2cd9296.png": "/static/media/screenshot_yardpal.a2cd9296.png",
-    "static/media/App.css": "/static/media/stars.4eae8b07.jpg"
+    "static/media/screenshot_yardpal.a2cd9296.png": "/static/media/screenshot_yardpal.a2cd9296.png"
   },
   "entrypoints": [
     "static/js/runtime-main.91662346.js",
     "static/css/2.20aa2d7b.chunk.css",
-    "static/js/2.93197a9c.chunk.js",
-    "static/css/main.4588409e.chunk.css",
-    "static/js/main.d36da4dc.chunk.js"
+    "static/js/2.77865bce.chunk.js",
+    "static/css/main.d62d0924.chunk.css",
+    "static/js/main.176e193d.chunk.js"
   ]
 }
