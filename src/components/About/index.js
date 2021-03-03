@@ -3,6 +3,7 @@ import Col from "react-bootstrap/Col";
 import Skills from "../Skills";
 import face from "../Images/ediuguid.jpg";
 import banner from "../Images/nameLogo.png";
+import Social from "../Social";
 
 const About = () => {
   return (
@@ -36,8 +37,13 @@ const About = () => {
       </Col>
       <Col>
         <Row>
-          <Col>
+          <Col className="xs-mx-auto">
             <img src={face} className="face" />
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <Social />
           </Col>
         </Row>
       </Col>
