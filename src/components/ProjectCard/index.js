@@ -10,8 +10,12 @@ const ProjectCard = ({ title, description, img, stack, deploy, github }) => {
         <Card.Text>{description}</Card.Text>
       </Card.Body>
       <Card.Body classNmae="border-rounded">
-        <Button href={deploy}>Deployment</Button>
-        <Button href={github}>Repo</Button>
+        <Button className="m-2 shadow" href={deploy}>
+          Deployment
+        </Button>
+        <Button className="m-2 shadow" href={github}>
+          Repo
+        </Button>
       </Card.Body>
     </Card>
   );
