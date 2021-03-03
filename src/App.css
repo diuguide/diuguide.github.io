@@ -54,3 +54,6 @@ h3 {
 .description {
   text-align: right;
 }
+.card-text {
+  color: whitesmoke;
+}
