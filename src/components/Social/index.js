@@ -7,13 +7,22 @@ const Social = () => {
   return (
     <Row className="m-2 mt-4 social" style={{ width: "200px" }}>
       <Col>
-        <img src={linkedIn} />
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/everett-diuguid-583632197/"
+        >
+          <img src={linkedIn} />
+        </a>
       </Col>
       <Col>
-        <img src={github} />
+        <a target="_blank" href="https://github.com/diuguide">
+          <img src={github} />
+        </a>
       </Col>
       <Col>
-        <img style={{ width: "44px" }} src={instagram} />
+        <a target="_blank" href="https://www.instagram.com/diuguid/">
+          <img style={{ width: "44px" }} src={instagram} />
+        </a>
       </Col>
     </Row>
   );
