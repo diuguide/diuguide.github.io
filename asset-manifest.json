@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.9cb641b3.chunk.css",
-    "main.js": "/static/js/main.219384ab.chunk.js",
-    "main.js.map": "/static/js/main.219384ab.chunk.js.map",
+    "main.js": "/static/js/main.a4b6f096.chunk.js",
+    "main.js.map": "/static/js/main.a4b6f096.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.35254830.js",
     "runtime-main.js.map": "/static/js/runtime-main.35254830.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/static/css/2.20aa2d7b.chunk.css",
@@ -16,17 +16,13 @@
     "static/js/2.6f960191.chunk.js.LICENSE.txt": "/static/js/2.6f960191.chunk.js.LICENSE.txt",
     "static/media/ediuguid.3d61a79f.jpg": "/static/media/ediuguid.3d61a79f.jpg",
     "static/media/instagram.f49accb6.png": "/static/media/instagram.f49accb6.png",
-    "static/media/nameLogo.8686b825.png": "/static/media/nameLogo.8686b825.png",
-    "static/media/screen_isitopenNEW.8f7291e0.png": "/static/media/screen_isitopenNEW.8f7291e0.png",
-    "static/media/screenshot_myriad.6bd7fb36.png": "/static/media/screenshot_myriad.6bd7fb36.png",
-    "static/media/screenshot_weathermap.d53763a4.png": "/static/media/screenshot_weathermap.d53763a4.png",
-    "static/media/screenshot_yardpal.a2cd9296.png": "/static/media/screenshot_yardpal.a2cd9296.png"
+    "static/media/nameLogo.8686b825.png": "/static/media/nameLogo.8686b825.png"
   },
   "entrypoints": [
     "static/js/runtime-main.35254830.js",
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.6f960191.chunk.js",
     "static/css/main.9cb641b3.chunk.css",
-    "static/js/main.219384ab.chunk.js"
+    "static/js/main.a4b6f096.chunk.js"
   ]
 }
