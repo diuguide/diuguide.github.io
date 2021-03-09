@@ -6,7 +6,7 @@ import projectData from "../JSONdata/projectData";
 const ProjectsPage = () => {
   
   return (
-    <Row className="mt-4 d-inline-flex justify-content-center mx-auto">
+    <Row>
       {projectData.projects.map((project, index) => {
           console.log(project.img)
           return (

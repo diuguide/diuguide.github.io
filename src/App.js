@@ -17,7 +17,7 @@ function App() {
           </Col>
         </Row>
         <Row id="projects">
-          <Col>
+          <Col sm="auto" lg="9">
             <ProjectsPage />
           </Col>
         </Row>
