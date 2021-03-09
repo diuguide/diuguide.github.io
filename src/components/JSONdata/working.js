@@ -1,12 +1,10 @@
-
-
 const projectData = {
   projects: [
     {
       title: "Is It Open?",
       description:
         "A search application drawing data from 3rd party APIs populating local business data along side area COVID19 data",
-      img: "/screenshots/screen_isitopenNEW.png",
+      img: "screen_isitopenNew.png",
       stack: {
         html:
           "https://img.shields.io/badge/HTML5-informational?style=plastic&logo=html5&logoColor=33415c&color=979dac",
@@ -28,7 +26,7 @@ const projectData = {
       title: "Rain or Shine 919",
       description:
         "A MERN stack application that populates current and forecast weather data.  Allows users to create individualized settings.",
-      img: "/screenshots/screenshot_weathermap.png",
+      img: "screenshot_weathermap.png",
       stack: {
         html:
           "https://img.shields.io/badge/HTML5-informational?style=plastic&logo=html5&logoColor=33415c&color=979dac",
@@ -54,7 +52,7 @@ const projectData = {
       title: "Myriad: Symptom Tracker",
       description:
         "A symptom tracking application for collecting and exporting health data for doctors visits",
-      img: "/screenshots/screenshot_myriad.png",
+      img: "screenshot_myriad.png",
       stack: {
         html:
           "https://img.shields.io/badge/HTML5-informational?style=plastic&logo=html5&logoColor=33415c&color=979dac",
@@ -82,7 +80,7 @@ const projectData = {
       title: "YardPal",
       description:
         "MERN Stack Retail app utilizing authentication to create individualized yard sales online",
-      img: "/screenshots/screenshot_yardPal.png",
+      img: "screenshot_myriad.png",
       stack: {
         html:
           "https://img.shields.io/badge/HTML5-informational?style=plastic&logo=html5&logoColor=33415c&color=979dac",
@@ -108,5 +106,3 @@ const projectData = {
     },
   ],
 };
-
-export default projectData;

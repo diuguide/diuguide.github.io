@@ -9,19 +9,24 @@ const Social = () => {
       <Col>
         <a
           target="_blank"
+          rel="noreferrer"
           href="https://www.linkedin.com/in/everett-diuguid-583632197/"
         >
-          <img src={linkedIn} />
+          <img src={linkedIn} alt="instagram" />
         </a>
       </Col>
       <Col>
-        <a target="_blank" href="https://github.com/diuguide">
-          <img src={github} />
+        <a target="_blank" rel="noreferrer" href="https://github.com/diuguide">
+          <img src={github} alt="github" />
         </a>
       </Col>
       <Col>
-        <a target="_blank" href="https://www.instagram.com/diuguid/">
-          <img style={{ width: "44px" }} src={instagram} />
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://www.instagram.com/diuguid/"
+        >
+          <img style={{ width: "44px" }} src={instagram} alt="instagram" />
         </a>
       </Col>
     </Row>

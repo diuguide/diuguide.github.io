@@ -11,7 +11,7 @@ const About = () => {
       <Col className="aboutContainer">
         <Row>
           <Col>
-            <img src={banner} className="banner" />
+            <img src={banner} className="banner" alt="banner" />
           </Col>
         </Row>
         <Row>
@@ -38,7 +38,7 @@ const About = () => {
       <Col>
         <Row>
           <Col className="xs-mx-auto">
-            <img src={face} className="face" />
+            <img src={face} className="face" alt="myface" />
           </Col>
         </Row>
         <Row>
