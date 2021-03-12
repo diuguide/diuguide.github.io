@@ -2,7 +2,28 @@
 
 const projectData = {
   projects: [
-    {}
+    {
+       title: "CSS Color Grid",
+      description:
+        "A simple css/JS application altering the color and shape of the grid components",
+      img: "/screenshots/screenshot_cssColorGrid.png",
+      stack: {
+        html:
+          "https://img.shields.io/badge/HTML5-informational?style=plastic&logo=html5&logoColor=33415c&color=979dac",
+        css:
+          "https://img.shields.io/badge/CSS3-informational?style=plastic&logo=css3&logoColor=33415c&color=979dac",
+        javaScript:
+          "https://img.shields.io/badge/JavaScript-informational?style=plastic&logo=javascript&logoColor=33415c&color=979dac",
+        bootstrap:
+          "https://img.shields.io/badge/Bootstrap-informational?style=plastic&logo=bootstrap&logoColor=33415c&color=979dac",
+        jQuery:
+          "https://img.shields.io/badge/jQuery-informational?style=plastic&logo=jquery&logoColor=33415c&color=979dac",
+      },
+      links: {
+        github: "https://github.com/diuguide/css_grid_practice",
+        deploy: "https://diuguide.github.io/css_grid_practice/",
+      },
+    },
     {
       title: "Is It Open?",
       description:
