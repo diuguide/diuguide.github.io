@@ -2,6 +2,7 @@
 
 const projectData = {
   projects: [
+    {}
     {
       title: "Is It Open?",
       description:
