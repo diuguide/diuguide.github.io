@@ -126,7 +126,7 @@ const projectData = {
       title: "YardPal",
       description:
         "MERN Stack Retail app utilizing authentication to create individualized yard sales online",
-      img: "/screenshots/screenshot_yardPal.png",
+      img: "/screenshots/screenshot_yardpal.png",
       stack: {
         html:
           "https://img.shields.io/badge/HTML5-informational?style=plastic&logo=html5&logoColor=33415c&color=979dac",
