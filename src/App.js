@@ -10,17 +10,21 @@ function App() {
   return (
     <>
       <Container fluid>
-        <Row>
-          <Col>
-            <NavHeader />
-            <About />
-          </Col>
-        </Row>
-        <Row id="projects">
-          <Col sm="auto" lg="9">
-            <ProjectsPage />
-          </Col>
-        </Row>
+        <NavHeader />
+        <div className="mainArea">
+          <Row>
+            <Col>
+              <About />
+            </Col>
+          </Row>
+        </div>
+        <div className="projArea">
+          <Row id="projects">
+            <Col sm="auto" lg="9">
+              <ProjectsPage />
+            </Col>
+          </Row>
+        </div>
       </Container>
     </>
   );

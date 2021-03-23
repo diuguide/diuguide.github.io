@@ -1,7 +1,7 @@
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import ProjectCard from "../ProjectCard";
-import projectData from "../JSONdata/projectData";
+import { projectData } from "../JSONdata/projectData";
 
 const ProjectsPage = () => {
   
