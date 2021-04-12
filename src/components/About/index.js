@@ -23,7 +23,7 @@ const About = () => {
                 Experience working in a remote setting with group projects
                 utilizing GitBash/GitHub version control, Zoom, Trello and
                 GitHub kanban boards, and Slack. Hopeful to join a development
-                team utilizing skills in ReactJS, Bootstrap 4, Linux systems,
+                team utilizing skills in ReactJS, Bootstrap 4, Linux,
                 MongoDB, Express, and NodeJS.
               </p>
             </div>
