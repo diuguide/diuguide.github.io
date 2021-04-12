@@ -1,16 +1,15 @@
 import { stackData } from "../JSONdata/projectData";
+import { Row, Col } from "react-bootstrap";
 
 const Skills = () => {
   return (
-    <>
-      <div className="skill-container">
-        <div className="language-tiles">
-          {Object.entries(stackData.stack).map(([key, tile], i) => {
-            return <img id="skill-tile" key={i} src={tile} alt="tile"></img>;
-          })}
-        </div>
-      </div>
-    </>
+    <Row>
+      <Col>
+        {Object.entries(stackData.stack).map(([key, tile], i) => {
+          return <img key={i} src={tile} alt="tile"></img>;
+        })}
+      </Col>
+    </Row>
   );
 };
 

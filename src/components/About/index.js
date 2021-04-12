@@ -16,17 +16,15 @@ const About = () => {
         </Row>
         <Row>
           <Col>
-            <div className="description">
-              <p>
-                Hello! I am Full Stack Web developer with an eye for design and
-                the ability to communicate, adapt, and learn on the fly.
-                Experience working in a remote setting with group projects
-                utilizing GitBash/GitHub version control, Zoom, Trello and
-                GitHub kanban boards, and Slack. Hopeful to join a development
-                team utilizing skills in ReactJS, Bootstrap 4, Linux systems,
-                MongoDB, Express, and NodeJS.
-              </p>
-            </div>
+            <p>
+              Hello! I am Full Stack Web developer with an eye for design and
+              the ability to communicate, adapt, and learn on the fly.
+              Experience working in a remote setting with group projects
+              utilizing GitBash/GitHub version control, Zoom, Trello and GitHub
+              kanban boards, and Slack. Hopeful to join a development team
+              utilizing skills in ReactJS, Bootstrap 4, Linux systems, MongoDB,
+              Express, and NodeJS.
+            </p>
           </Col>
         </Row>
         <Row>

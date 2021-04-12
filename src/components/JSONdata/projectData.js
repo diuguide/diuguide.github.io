@@ -183,9 +183,9 @@ export const projectData = {
 export const stackData = {
   stack: {
     html:
-      "https://img.shields.io/badge/HTML5-informational?style=plastic&logo=html5&logoColor=33415c&color=979dac",
+      "https://img.shields.io/badge/HTML-informational?style=plastic&logo=html5&logoColor=33415c&color=979dac",
     css:
-      "https://img.shields.io/badge/CSS3-informational?style=plastic&logo=css3&logoColor=33415c&color=979dac",
+      "https://img.shields.io/badge/CSS-informational?style=plastic&logo=css3&logoColor=33415c&color=979dac",
     javaScript:
       "https://img.shields.io/badge/JavaScript-informational?style=plastic&logo=javascript&logoColor=33415c&color=979dac",
     bootstrap:
