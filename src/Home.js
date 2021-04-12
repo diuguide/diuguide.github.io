@@ -1,5 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import Skills from './components/Skills';
+import Buttons from './components/Buttons';
 import banner from "./components/Images/nameLogo.png";
 import "./App.scss";
 
@@ -14,8 +15,8 @@ const Home = () => {
           <Row className="d-flex justify-content-center align-content-center">
             <Col
               xs={10}
-              md={6}
-              lg={5}
+              md={10}
+              lg={7}
               className="d-flex justify-content-center"
             >
               <img
@@ -26,13 +27,13 @@ const Home = () => {
             </Col>
           </Row>
           <Row className="d-flex justify-content-center align-content-center">
-            <Col xs={10} md={6} lg={5}>
+            <Col xs={10} md={10} lg={7}>
               <Skills />
             </Col>
           </Row>
           <Row className="d-flex justify-content-center align-content-center">
-            <Col xs={10} md={6} lg={5} >
-              
+            <Col xs={10} md={10} lg={7}>
+              <Buttons />
             </Col>
           </Row>
         </Col>

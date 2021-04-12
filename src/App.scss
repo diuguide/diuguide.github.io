@@ -1,5 +1,8 @@
+$darkbg: #1c1c1c;
+$bluebg:  #22223b;
+$lighttext: #e9e9e9;
+
 html,
-body,
 #root,
 #root > div {
   background-color: #22223b;
@@ -7,84 +10,56 @@ body,
   font-family: "Roboto", sans-serif;
   font-weight: 900;
   scroll-behavior: smooth;
+  backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+}
+
+body {
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.9;
+  }
+}
+
+#btn-projects,
+#btn-contact {
+  a a:hover {
+    text-decoration: none;
+    
+  }
+  color: $lighttext;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: $darkbg;
+  height: 50px;
+  width: 150px;
+  padding: 10px;
+  border-radius: 2px;
+}
+
+#btn-projects:hover,
+#btn-contact:hover {
+  transform:scale(1.1,1.1);
+}
+
+#tile {
+  padding: 2px;
 }
 #nameBanner {
   width: 100%;
 }
 #skill-tile {
   margin: 2px;
-}
-@media only screen and (min-width: 750px) {
-  .mainArea {
-    display: flex;
-    width: 900px;
-    margin: auto;
-  }
-  .projArea {
-    display: flex;
-    width: 900px;
-    margin: auto;
-    padding-left: 30px;
-  }
-}
-.navItem {
-  color: #aed9e0;
-  font-size: 20px;
-}
-.nameImage {
-  width: 100%;
-}
-.logo {
-  margin-left: 3px;
-  margin-right: 3px;
-  height: 20px;
-}
-h3 {
-  color: #aed9e0;
-}
-
-.card-body {
-  background-color: #a5a5a5b7;
-}
-.logoDesc {
-  height: 20px;
-  margin: 5px;
-}
-.project {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-.face {
-  margin-top: 15px;
-  width: 200px;
-  border-radius: 5px;
-}
-.banner {
-  float: right;
-  width: 400px;
-}
-
-.description {
-  color: #dfdfdf;
-  font-size: 13px;
-  font-weight: 500;
-}
-.skillContainer {
-  text-align: right;
-  float: right;
-}
-.description {
-  text-align: right;
-}
-.card-text {
-  color: #22223b;
-}
-
-@media only screen and (max-width: 400px) {
-  .banner {
-    width: 200px;
-  }
-  .face {
-    margin-left: 55px;
-  }
 }

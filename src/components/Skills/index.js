@@ -4,9 +4,9 @@ import { Row, Col } from "react-bootstrap";
 const Skills = () => {
   return (
     <Row>
-      <Col>
+      <Col className="d-flex justify-content-center flex-wrap">
         {Object.entries(stackData.stack).map(([key, tile], i) => {
-          return <img key={i} src={tile} alt="tile"></img>;
+          return <img id="tile" key={i} src={tile} alt="tile"></img>;
         })}
       </Col>
     </Row>
