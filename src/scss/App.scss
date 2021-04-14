@@ -1,0 +1,71 @@
+@import "card";
+
+$darkbg: #1c1c1c;
+$bluebg:  #22223b;
+$lighttext: #065eb9;
+
+html,
+#root,
+#root > div {
+  background-color: #22223b;
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  scroll-behavior: smooth;
+  backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+}
+
+body {
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.9;
+  }
+}
+
+#btn-projects,
+#btn-contact {
+  a a:hover {
+    text-decoration: none;
+    
+  }
+  color: $lighttext;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+  height: 30px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 2px;
+}
+
+#btn-projects:hover,
+#btn-contact:hover {
+  transform:scale(1.1,1.1);
+}
+
+#projects {
+  background-color: $darkbg;
+}
+
+#tile {
+  padding: 2px;
+}
+#nameBanner {
+  width: 100%;
+}
+#skill-tile {
+  margin: 2px;
+}

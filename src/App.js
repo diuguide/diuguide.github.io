@@ -11,13 +11,11 @@ function App() {
     <>
       <Container fluid>
         <NavHeader />
-        <div className="mainArea">
-          <Row>
+          <Row className="mainArea">
             <Col>
               <About />
             </Col>
           </Row>
-        </div>
         <div className="projArea">
           <Row id="projects">
             <Col sm="auto" lg="9">
