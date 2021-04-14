@@ -1,3 +1,30 @@
+
+$darkbg: #bbbbbb;
+$bluebg:  #22223b;
+$lighttext: #e4e4e4;
+$bgblue: #065eb9;
+$border: #444444;
+$button: #b5b5b5;
+
 #project-img {
     width: 100%;
+}
+#project-deploy, #project-github {
+    height: 30px;
+    width: 100px;
+    margin: 10px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+    background-color: $button;
+    color: $bgblue;
+    border-radius: 5px;
+}
+p {
+    font-weight: 100;
+    color: $lighttext;
+}
+h3 {
+    color: $bgblue;
+    border-bottom: 1px solid $border;
 }

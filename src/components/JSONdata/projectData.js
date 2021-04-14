@@ -3,7 +3,7 @@
 export const projectData = {
   projects: [
     {
-      title: "ValuePal: Stock Analysis Tool",
+      title: "ValuePal",
       description:
         "A Stock analysis and information tool.",
       img: "/screenshots/screenshotvaluepal.png",
