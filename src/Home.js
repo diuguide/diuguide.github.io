@@ -1,8 +1,9 @@
 import { Container, Row, Col } from "react-bootstrap";
-import Skills from './components/Skills';
-import Buttons from './components/Buttons';
+import Skills from "./components/Skills";
+import Buttons from "./components/Buttons";
+import Projects from "./components/ProjectsPage/Projects";
 import banner from "./components/Images/nameLogo.png";
-import "./App.scss";
+import "./scss/App.scss";
 
 const Home = () => {
   return (
@@ -32,10 +33,15 @@ const Home = () => {
             </Col>
           </Row>
           <Row className="d-flex justify-content-center align-content-center">
-            <Col xs={10} md={10} lg={7}>
+            <Col xs={10} md={6} lg={4}>
               <Buttons />
             </Col>
           </Row>
+        </Col>
+      </Row>
+      <Row id="projects" className="d-flex justify-content-center align-content-center">
+        <Col xs={10} md={10} lg={7}>
+          <Projects />
         </Col>
       </Row>
     </Container>
