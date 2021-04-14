@@ -7,11 +7,11 @@ const Projects = () => {
     <Row>
       <Col className="d-block">
         {projectData.projects.map((project, index) => {
-          console.log(project.img);
           return (
-            <Row className="mt-4">
-              <Col key={index}>
+            <Row key={index} className="mt-4">
+              <Col >
                 <Card
+                  
                   title={project.title}
                   description={project.description}
                   img={project.img}

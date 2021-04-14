@@ -3,6 +3,7 @@ import Skills from "./components/Skills";
 import Buttons from "./components/Buttons";
 import Projects from "./components/ProjectsPage/Projects";
 import banner from "./components/Images/nameLogo.png";
+import Social from "./components/Social";
 import "./scss/App.scss";
 
 const Home = () => {
@@ -39,9 +40,21 @@ const Home = () => {
           </Row>
         </Col>
       </Row>
-      <Row id="projects" className="d-flex justify-content-center align-content-center">
+      <Row
+        id="projects"
+        className="d-flex justify-content-center align-content-center"
+      >
         <Col xs={10} md={10} lg={7}>
           <Projects />
+        </Col>
+      </Row>
+      <Row
+        id="contact"
+        style={{ height: "100vh" }}
+        className="d-flex justify-content-center"
+      >
+        <Col xs={10} md={10} lg={7}>
+          <Social />
         </Col>
       </Row>
     </Container>
