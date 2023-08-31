@@ -1,13 +1,13 @@
 @import "card";
 
-$darkbg: #1c1c1c;
-$bluebg:  #22223b;
-$lighttext: #065eb9;
+$darkbg: #0d1b2a;
+$bluebg:  #1b263b;
+$lighttext: #e0e1dd;
 
 html,
 #root,
 #root > div {
-  background-color: #22223b;
+  background-color: $darkbg;
   height: 100%;
   font-family: "Roboto", sans-serif;
   font-weight: 900;
