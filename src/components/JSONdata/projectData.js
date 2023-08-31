@@ -55,7 +55,7 @@ export const stackData = {
     //   "https://img.shields.io/badge/MongoDB-informational?style=plastic&logo=mongodb&logoColor=33415c&color=979dac",
     springboot:
       "https://img.shields.io/badge/SpringBoot-informational?style=plastic&logo=springboot&logoColor=white&color=979dac",
-    java: "https://img.shields.io/badge/Java-informational?style=plastic&logo=java&logoColor=white&color=979dac",
+    java: "https://img.shields.io/badge/Java-informational?style=plastic&logo=oracle&logoColor=white&color=979dac",
     react:
       "https://img.shields.io/badge/React-informational?style=plastic&logo=react&logoColor=33415c&color=979dac",
     typescript:
@@ -63,10 +63,14 @@ export const stackData = {
     // express:
     //   "https://img.shields.io/badge/Express-informational?style=plastic&logo=express&logoColor=33415c&color=979dac",
     bash:
-      "https://img.shields.io/badge/Bash-informational?style=plastic&logo=bash&logoColor=33415c&color=979dac",
+      "https://img.shields.io/badge/Bash-informational?style=plastic&logo=vim&logoColor=33415c&color=979dac",
     nodeJS:
-      "https://img.shields.io/badge/NodeJS-informational?style=plastic&logo=nodejs&logoColor=33415c&color=979dac",
-    oracle:
+      "https://img.shields.io/badge/NodeJs-informational?style=plastic&logo=nodedotjs&logoColor=33415c&color=979dac",
+      elasticSearch:
+      "https://img.shields.io/badge/ElasticSearch-informational?style=plastic&logo=elasticsearch&logoColor=33415c&color=979dac",
+      solr:
+      "https://img.shields.io/badge/ApacheSolr-informational?style=plastic&logo=apache&logoColor=white&color=979dac",
+      oracle:
       "https://img.shields.io/badge/Oracle-informational?style=plastic&logo=oracle&logoColor=white&color=979dac",
     postgresql:
       "https://img.shields.io/badge/PostgreSQL-informational?style=plastic&logo=postgresql&logoColor=white&color=979dac",
