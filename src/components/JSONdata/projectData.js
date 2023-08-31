@@ -76,6 +76,6 @@ export const stackData = {
       "https://img.shields.io/badge/PostgreSQL-informational?style=plastic&logo=postgresql&logoColor=white&color=979dac",
     github:
       "https://img.shields.io/badge/GitHub-informational?style=plastic&logo=github&logoColor=white&color=979dac",
-    aws: "https://img.shields.io/badge/AWS-informational?style=plastic&logo=aws&logoColor=white&color=979dac",
+    aws: "https://img.shields.io/badge/AWS-informational?style=plastic&logo=amazon&logoColor=white&color=979dac",
   },
 };
