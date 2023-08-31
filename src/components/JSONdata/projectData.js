@@ -45,29 +45,29 @@ export const projectData = {
 
 export const stackData = {
   stack: {
-    html: "https://img.shields.io/badge/HTML-informational?style=plastic&logo=html5&logoColor=33415c&color=979dac",
-    sass: "https://img.shields.io/badge/SASS-informational?style=plastic&logo=sass&logoColor=white&color=979dac",
-    javaScript:
-      "https://img.shields.io/badge/JavaScript-informational?style=plastic&logo=javascript&logoColor=33415c&color=979dac",
-    bootstrap:
-      "https://img.shields.io/badge/Bootstrap-informational?style=plastic&logo=bootstrap&logoColor=33415c&color=979dac",
-    mongoDB:
-      "https://img.shields.io/badge/MongoDB-informational?style=plastic&logo=mongodb&logoColor=33415c&color=979dac",
-    postgresql:
-      "https://img.shields.io/badge/PostgreSQL-informational?style=plastic&logo=postgresql&logoColor=white&color=979dac",
-    express:
-      "https://img.shields.io/badge/Express-informational?style=plastic&logo=express&logoColor=33415c&color=979dac",
+    // html: "https://img.shields.io/badge/HTML-informational?style=plastic&logo=html5&logoColor=33415c&color=979dac",
+    // sass: "https://img.shields.io/badge/SASS-informational?style=plastic&logo=sass&logoColor=white&color=979dac",
+    // javaScript:
+    //   "https://img.shields.io/badge/JavaScript-informational?style=plastic&logo=javascript&logoColor=33415c&color=979dac",
+    // bootstrap:
+    //   "https://img.shields.io/badge/Bootstrap-informational?style=plastic&logo=bootstrap&logoColor=33415c&color=979dac",
+    // mongoDB:
+    //   "https://img.shields.io/badge/MongoDB-informational?style=plastic&logo=mongodb&logoColor=33415c&color=979dac",
+    springboot:
+      "https://img.shields.io/badge/SpringBoot-informational?style=plastic&logo=springboot&logoColor=white&color=979dac",
     react:
       "https://img.shields.io/badge/React-informational?style=plastic&logo=react&logoColor=33415c&color=979dac",
+    typescript:
+      "https://img.shields.io/badge/Typescript-informational?style=plastic&logo=typescript&logoColor=white&color=979dac",
+    java: "https://img.shields.io/badge/Java-informational?style=plastic&logo=java&logoColor=white&color=979dac",
+    // express:
+    //   "https://img.shields.io/badge/Express-informational?style=plastic&logo=express&logoColor=33415c&color=979dac",
     nodeJS:
       "https://img.shields.io/badge/NodeJS-informational?style=plastic&logo=nodejs&logoColor=33415c&color=979dac",
-    mySQL:
-      "https://img.shields.io/badge/mysql-informational?style=plastic&logo=mysql&logoColor=white&color=979dac",
-
-    java: "https://img.shields.io/badge/Java-informational?style=plastic&logo=java&logoColor=white&color=979dac",
-    php: "https://img.shields.io/badge/PHP-informational?style=plastic&logo=php&logoColor=white&color=979dac",
-    python:
-      "https://img.shields.io/badge/Python-informational?style=plastic&logo=python&logoColor=white&color=979dac",
+    oracle:
+      "https://img.shields.io/badge/Oracle-informational?style=plastic&logo=oracle&logoColor=white&color=979dac",
+    postgresql:
+      "https://img.shields.io/badge/PostgreSQL-informational?style=plastic&logo=postgresql&logoColor=white&color=979dac",
     github:
       "https://img.shields.io/badge/GitHub-informational?style=plastic&logo=github&logoColor=white&color=979dac",
     heroku:
